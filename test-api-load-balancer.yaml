@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: test-api-load-balancer
+spec:
+  selector:
+    app: test-api
+  ports:
+    - port: 8080
+      targetPort: 51000
+  type: LoadBalancer
