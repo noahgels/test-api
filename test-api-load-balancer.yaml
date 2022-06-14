@@ -7,5 +7,5 @@ spec:
     app: test-api
   ports:
     - port: 8080
-      targetPort: 51000
+      targetPort: 50000
   type: LoadBalancer

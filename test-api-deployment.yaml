@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: test-api
-          image: noahgels/test-api:latest
+          image: noahgels/test-api:count
           ports:
-            - containerPort: 51000
+            - containerPort: 50000
